@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://UI/HUD.gd" type="Script" id=2]
+[ext_resource path="res://assets/fonts/flappyfont.tres" type="DynamicFont" id=3]
+
+[node name="HUD" type="CanvasLayer"]
+script = ExtResource( 2 )
+
+[node name="Score" type="Label" parent="."]
+anchor_top = 0.077
+anchor_right = 1.0
+anchor_bottom = 0.077
+margin_top = -32.758
+margin_bottom = 32.242
+custom_fonts/font = ExtResource( 3 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+custom_constants/shadow_offset_x = 3
+custom_constants/shadow_offset_y = 3
+text = "0"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
