@@ -11,7 +11,6 @@ extents = Vector2( 18, 654 )
 "obstacles",
 ]]
 script = ExtResource( 2 )
-SPEED = 225
 
 [node name="Wall_1" parent="." instance=ExtResource( 1 )]
 position = Vector2( 0, 600 )

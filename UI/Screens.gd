@@ -19,6 +19,7 @@ func _on_Button_pressed(button):
 			change_screen(null)
 			emit_signal("start_game")
 		"Restart":
+# warning-ignore:return_value_discarded
 			get_tree().reload_current_scene()
 
 func change_screen(new_screen):
